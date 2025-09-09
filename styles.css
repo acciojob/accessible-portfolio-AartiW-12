@@ -1,2 +1,71 @@
 
 /* Your CSS Code here. */
+body{
+	box-sizing:border-box;
+	border:1px solid black;
+	margin : 10px;
+	padding:auto;
+	background-color: #f9f9f9;
+    color: #333;
+}
+h1[role="heading"] {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+nav[role="navigation"] {
+    background-color: #34495e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav[role="navigation"] ul[role="list"] {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav[role="navigation"] li[role="listitem"] {
+    margin: 0 15px;
+}
+
+nav[role="navigation"] a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav[role="navigation"] a:hover {
+    text-decoration: underline;
+}
+
+img[role="img"] {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid #34495e;
+}
+
+section p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+ul[role="list"] {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li[role="listitem"] {
+    background-color: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
